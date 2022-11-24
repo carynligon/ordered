@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Miles",
+    "friends": [
+      {
+        "user_id": "2"
+      },
+      {
+        "user_id": "3"
+      }
+    ],
+    "recommendations": [
+      {
+        "restaurant_id": "1",
+        "dishes": [
+          {
+            "dish_id": "1",
+            "rating": 3,
+            "comments": "Twas aight",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Lauren",
+    "friends": [
+      {
+        "user_id": "1"
+      }
+    ],
+    "recommendations": [
+      {
+        "restaurant_id": "1",
+        "dishes": [
+          {
+            "dish_id": "2",
+            "rating": 4,
+            "comments": "Twas good",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "restaurant_id": "2",
+        "dishes": [
+          {
+            "dish_id": "3",
+            "rating": 5,
+            "comments": "Twas fire",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Derrick",
+    "friends": [
+      {
+        "user_id": "1"
+      }
+    ],
+    "recommendations": [
+      {
+        "restaurant_id": "1",
+        "dishes": [
+          {
+            "dish_id": "1",
+            "rating": 3,
+            "comments": "Twas aightttt",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  }
+]

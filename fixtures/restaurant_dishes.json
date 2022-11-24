@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "restaurant_id": "1",
+    "image": "https://assets.bonappetit.com/photos/5ace5d46d63c0e2f9cf4916b/1:1/w_3333,h_3333,c_limit/grilled-turbot-with-celery-leaf-salsa-verde.jpg",
+    "name": "Turbot",
+    "description": "A fish!"
+  },
+  {
+    "id": "2",
+    "restaurant_id": "1",
+    "image": "https://d2u8towkwolubl.cloudfront.net/wp-content/uploads/2022/06/ESTE-AUSTIN0071-1.jpg",
+    "name": "Tuna",
+    "description": "Raw fish!"
+  },
+  {
+    "id": "3",
+    "restaurant_id": "2",
+    "image": "https://keepaustineatin.com/wp-content/uploads/2021/06/la-piscina-in-the-proper-hotel-is-one-of-the-best-fajitas-in-austin-and-quesadilla-for-any-texas-eater-scaled-e1626181104683.jpg",
+    "name": "Fajitas",
+    "description": "Sizzzzzzle"
+  }
+]

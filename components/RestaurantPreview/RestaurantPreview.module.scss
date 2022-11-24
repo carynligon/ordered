@@ -1,0 +1,9 @@
+.preview {
+  position: relative;
+  height: 300px;
+  width: 50%;
+
+  img {
+    object-fit: contain;
+  }
+}
