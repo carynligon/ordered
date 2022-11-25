@@ -1,0 +1,26 @@
+@import "../../styles/colors.scss";
+@import "../../styles/typography.scss";
+
+.nav {
+  display: flex;
+  margin: -1rem -2rem;
+  padding: 1rem 2rem;
+}
+
+.hamburger {
+  div {
+    background-color: $primary;
+    height: 3px;
+    margin: 10px 0;
+    width: 40px;
+  }
+}
+
+.logo {
+  color: $primary;
+  font-family: $logo-font;
+  font-size: $font-size-display;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
