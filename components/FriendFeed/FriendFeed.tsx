@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { dishes, restaurants, users } from "../../fixtures";
 
 import styles from "./FriendFeed.module.scss";
@@ -24,18 +25,21 @@ const FriendFeed = () => {
             return (
               <div className={styles.friendItem} key={f.user_id}>
                 <h4>
-                  @{friend?.name} recently rated something from{" "}
+                  <Link href={`/profile/${f.user_id}`}>@{friend?.name}</Link>{" "}
+                  recently rated something from{" "}
                   {mostRecentlyRatedRestaurant?.name}
                 </h4>
-                {reviewedDish && (
-                  <div className={styles.dishImage}>
-                    <Image
-                      alt={reviewedDish.name}
-                      fill
-                      src={reviewedDish.image}
-                    />
-                  </div>
-                )}
+                <Link href={`/reviews/${mostRecentlyRatedRestaurantID}`}>
+                  {reviewedDish && (
+                    <div className={styles.dishImage}>
+                      <Image
+                        alt={reviewedDish.name}
+                        fill
+                        src={reviewedDish.image}
+                      />
+                    </div>
+                  )}
+                </Link>
               </div>
             );
           })}

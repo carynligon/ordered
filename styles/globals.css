@@ -30,3 +30,8 @@ a {
 .main {
   padding: 1rem;
 }
+
+.main.menu-open {
+  height: 100vh;
+  overflow-y: hidden;
+}
