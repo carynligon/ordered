@@ -6,6 +6,7 @@ import styles from "./FriendFeed.module.scss";
 
 const FriendFeed = () => {
   const currentUser = users[0];
+  console.log("??");
   return (
     <div>
       <h2 className={styles.title}>Friends</h2>
